@@ -1,5 +1,5 @@
 name: make
-on: [push]
+on: [push, workflow_dispatch]
 concurrency: ci-${{ github.ref }}
 
 jobs:
